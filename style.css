@@ -1,0 +1,77 @@
+h1 {
+  font-size:2em;
+  text-align:center;
+  font-family:'Great Vibes';
+}
+h3 {
+  text-align:center;
+  font-size:1em;
+  margin-top:-1.1em;
+}
+.container {
+  padding: 2em;
+  margin-top:1em;
+  //border: 1px solid black;
+  overflow: hidden;
+}
+.calculator {
+  width:16em;
+  height:24em;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-top:.6em;
+  padding-bottom:1em;
+  box-shadow: inset -1px 2px 15px black;
+  
+}
+.rounded-top, input {
+  border-top-left-radius: 100%30px;
+  border-top-right-radius: 100%30px;
+}
+.br {
+  border-top-left-radius: 100%13px;
+  border-top-right-radius: 100%13px;
+  border-bottom-left-radius: 100%13px;
+  border-bottom-right-radius: 100%13px;
+  box-shadow: 0 2px 3px white;
+  
+}
+.rounded-bottom, input {
+  border-bottom-left-radius: 100%30px;
+  border-bottom-right-radius: 100%30px;
+}
+table {
+  margin:auto;
+  width:14em;
+}
+
+.display {
+  background:#EBF5EB;
+  text-align:right;
+  box-shadow: inset -1px 0px 10px gray;
+  border-radius: 5px;
+  font-family: "verdana";
+}
+#plus {
+  height:5.2em;
+}
+.calcBtn {
+  width:3em;
+  margin:.3em;
+  background: #000000;
+  color:#FFF;
+  box-shadow: inset -1px 0px 10px white;
+}
+.calcBtn:focus, .calcBtn:hover {
+	color: white;
+}
+.calcBtn:active {
+	box-shadow: inset -1px 0px 10px gray;
+}
+#ac, #ce {
+  background: #FA0000;
+}
+
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('./fonts/radioland/RADIOLAND.TTF');
